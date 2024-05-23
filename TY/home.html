@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <style>
+    /* Normal link */
+    a {
+      padding: 5px;
+      color: white;
+      background-color: GREEN;
+      text-decoration: none;
+      margin-right: 10px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: BLUE;
+    }
+
+    /* Unvisited link */
+    a:link {
+      color: brown;
+    }
+
+    /* Hover effect */
+    a:hover {
+      background-color: YELLOW;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: BLUE;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 15px; /* Adjust this value as needed */
+      margin-top: 4px;
+    }
+
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 15px; /* Adjust this value as needed */
+      padding: 8px;
+    }
+  </style>
+</head>
+<body style="background-image: url('./Images/donation.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+<header>
+  <form class="d-flex" role="search" action="search.php">
+    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
+ <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;"><img src="./Images/STATUS.jpg" width="90" height="60" alt="Logo"></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./home.html">home</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./about.html">about</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./contact.html">contact</a></li>
+    
+    <li style="display: inline; margin-right: 10px;"><a href="./campaigns.html">campaigns</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./donations.html">donations</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./beneficiaries.html">beneficiaries</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./reports.html">reports</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./media.html">media</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./volunteer.html">volunteer</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./payment.html">payment</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./notification.html">notification</a></li>
+    <li style="display: inline; margin-right: 10px;"><a href="./feedback.html">feedback</a></li>
+    <li class="dropdown" style="display: inline; margin-right: 10px;">
+      <a href="#" style="padding: 10px; color: white; background-color: blue; text-decoration: none; margin-right: 15px;">Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li>
+  </ul>
+</header>
+
+<section style="color: YELLOW;">
+  <marquee><h1 style="color: red;">WELCOME TO HOME PAGE OF DONATION CROWDSOURCING PLATFORM</h1></marquee>
+  <h2 style="color: yellow;"><u>MAIN TABLES INVOLVED IN DONATION CROWDSOURCING PLATFORM:</u></h2>
+  <ol type="number">
+    <li><b>User </b></li>
+    <li><b>campaigns</b></li> 
+    <li><b>donations</b></li> 
+    <li><b>beneficiaries</b></li>
+    <li><b>reports</b></li>  
+    <li><b>media</b></li> 
+    <li><b>volunteer</b></li>
+    <li><b>payment</b></li> 
+    <li><b>notification</b></li>
+    <li><b>feedback</b></li>
+  </ol>
+</section>
+
+
+
+<section class="hero">
+  <h1>Comprehensive donation crowdsourcing platform</h1>
+  <p>Streamline your donations operations with our powerful and user-friendly platform.</p>
+  <a href="#" class="cta-button">Get Started</a>
+</section>
+
+<section class="features">
+  <!-- Feature sections -->
+</section>
+
+<footer>
+  <p>&copy; 2024 DONATION CROWDSOURCING PLATFORM. rigths and responsibilities reserved.</p>
+</footer>
+
+</body>
+</html>
